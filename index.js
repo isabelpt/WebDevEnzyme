@@ -4,7 +4,7 @@ var playing = true;
 //note: come up with an actual name
 console.log("🎄 🎄 🎄 🎄 🎄 🎄 🎄 🎄 🎄 🎄 🎄 🎄 🎄 🎄 🎄 🎄 🎄 🎄");
 console.log("Welcome to the enzyme guesser thing");
-console.log("🎄 🎄 🎄 🎄 🎄 🎄 🎄 🎄 🎄 🎄 🎄 🎄 🎄 🎄 🎄 🎄 🎄 🎄 \n");
+console.log("🎄 🎄 🎄 🎄 🎄 🎄 🎄 🎄 🎄 🎄 🎄 🎄 🎄 🎄 🎄 🎄 🎄 🎄\n");
 
 //loop adds play again option
 while (playing == true){
@@ -193,9 +193,9 @@ while (playing == true){
       q5 = false;
     } else if (playAgain == "n") {
       playing = false;
+      q5 = false;
       console.log("Have a nice day 🐸");
       //give info on enzymes here
-      q5 = false;
     } else {
       console.log("invalid input\n");
     }
